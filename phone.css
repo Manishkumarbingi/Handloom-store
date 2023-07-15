@@ -1,0 +1,19 @@
+#navbar{
+    flex-direction: column;
+    padding: none;
+    margin: none;
+}
+#navbar ul li{
+    padding: none;
+    flex-direction: column;
+    margin: none;
+}
+#Home{
+    width: 100%;
+    background-image: none;
+    background-color: linear-gradient(rgb(166, 215, 114), rgb(13, 211, 46), rgb(3, 109, 3));
+
+}
+#Services{
+    flex-direction: column;
+}

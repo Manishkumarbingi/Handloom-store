@@ -1,0 +1,144 @@
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logo {
+    display: flex;
+
+}
+
+#log {
+    height: 67px;
+    width: 75px;
+    background-color: #000000f2
+}
+
+#h {
+    width: 50px;
+    color: white;
+    padding-left: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 3px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 12rem;
+
+}
+
+#navbar ul li {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    
+    list-style: none;
+    text-align: center;
+    
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+#navbar ul li :hover{
+    
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#he{
+    color: rgb(13, 127, 226);
+}
+
+#Home {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url('b.jpg');
+    height: 600px;
+    
+
+    color: rgba(211, 221, 18, 0.704);
+}
+
+.h2 {
+    color: rgb(15, 3, 48);
+}
+
+
+#Services {
+    display: flex;
+    flex-direction: row;
+}
+
+.s {
+    background-image: url(d.jpg);
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin: 10px 20px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.251);
+}
+
+.immg {
+    padding-left: 40px;
+}
+
+.btn {
+    height: 30px;
+    width: 160px;
+    border-radius: 15px;
+
+}
+
+#type {
+    padding: 0px 304px;
+    text-align: center;
+    justify-content: center;
+ 
+}
+#sponsers{
+    background-image: url('s.jpg');
+    height: 500px;
+    
+}
+#sponsers h1{
+    text-align: center;
+}
+#contactus{
+    background-image: url('./conatct\ us.jpg');
+    height: 500px;
+}
+#f{
+    padding-top: 120px;
+    padding-left: 332px;
+}
+#contactus h1{
+    text-align: center;
+    
+}
